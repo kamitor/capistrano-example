@@ -1,3 +1,3 @@
-set :deploy_to, "/sites/capistrano_example"
+set :deploy_to, "/var/www/html"
 
-server 'carve.io', user: 'davzie', roles: %w{web app db}
+#server 'carve.io', user: 'davzie', roles: %w{web app db}
