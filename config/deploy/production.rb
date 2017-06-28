@@ -1,3 +1,3 @@
 set :deploy_to, "/resources/fileshare/"
 
-server 'localhost', user: 'root', roles: %w{web app db}
+server '172.16.0.13', user: 'root', roles: %w{web app db}
